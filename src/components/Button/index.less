@@ -1,10 +1,48 @@
 @import '../../common/variable';
 .btn {
-  color: @textColorDefault;
-  border-radius: 2px;
-  border: 1px solid #ddd;
-  padding: 2px 8px;
-  height: 30px;
-  line-height: 30px;
+  color: #fff;
+  background-color: @colorDefault;
+  border-radius: .4rem;
+  border: 1px solid @colorDefault;
+  padding: .4rem .8rem;
+  font-size: @fontSizeDefault;
+  text-align: center;
   cursor: pointer;
+  &:hover {
+    background-color: @colorDefaultHover;
+    border-color: @colorDefaultHover;
+  }
+  &.btn-danger {
+    background-color: @colorDanger;
+    border-color: @colorDanger;
+    &:hover {
+      background-color: @colorDangerHover;
+      border-color: @colorDangerHover;
+    }
+  }
+  &.btn-info {
+    background-color: @colorInfo;
+    border-color: @colorInfo;
+    &:hover {
+      background-color: @colorInfoHover;
+      border-color: @colorInfoHover;
+    }
+  }
+  &.btn-success {
+    background-color: @colorSuccess;
+    border-color: @colorSuccess;
+    &:hover {
+      background-color: @colorSuccessHover;
+      border-color: @colorSuccessHover;
+    }
+  }
+  &.btn-disabled {
+    background-color: @colorDisabled;
+    border-color: @colorDisabled;
+    &:hover {
+      background-color: @colorDisabledHover;
+      border-color: @colorDisabledHover;
+    }
+    cursor: no-drop;
+  }
 }

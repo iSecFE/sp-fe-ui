@@ -1,0 +1,47 @@
+@import '../../common/variable';
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"],
+input[type="date"],
+input[type="datetime"] {
+  text-indent: .4rem;
+  border: 1px solid @textColorDefault;
+  color: @textColorDefault;
+  border-radius: .4rem;
+  padding: .4rem .8rem;
+  font-size: 1rem;
+  &:focus {
+    box-shadow: 0 0 2.6px @colorDefault;
+    transition: .4s;
+  }
+  &.input-danger {
+    border-color: @colorDanger;
+    &:focus {
+      box-shadow: 0 0 2.6px @colorDanger;
+    }
+  }
+  &.input-info {
+    border-color: @colorInfo;
+    &:focus {
+      box-shadow: 0 0 2.6px @colorInfo;
+    }
+  }
+  &.input-success {
+    border-color: @colorSuccess;
+    &:focus {
+      box-shadow: 0 0 2.6px @colorSuccess;
+    }
+  }
+  &.input-disabled {
+    border-color: @colorDisabled;
+    background-color: @colorDisabled;
+    cursor: no-drop;
+    &:focus {
+      border-color: @colorDisabled;
+      background-color: @colorDisabled;
+      box-shadow: unset;
+      transition: 0;
+    }
+  }
+}
