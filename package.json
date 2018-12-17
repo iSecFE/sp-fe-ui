@@ -3,10 +3,10 @@
   "version": "1.0.3",
   "description": "Common UI Components.",
   "main": "index.js",
-  "homepage": "https://github.com/isecfe/sp-view",
+  "homepage": "https://github.com/z41z/sp-view",
   "repository": {
     "type": "git",
-    "url": "https://github.com/isecfe/sp-view"
+    "url": "https://github.com/z41z/sp-view"
   },
   "scripts": {
     "build": "webpack --mode production --config webpack.config.js"
