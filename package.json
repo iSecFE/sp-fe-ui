@@ -1,18 +1,18 @@
 {
-  "name": "sp-fe-ui",
+  "name": "sp-view",
   "version": "1.0.3",
   "description": "Common UI Components.",
   "main": "index.js",
-  "homepage": "https://github.com/isecfe/sp-fe-ui",
+  "homepage": "https://github.com/isecfe/sp-view",
   "repository": {
     "type": "git",
-    "url": "https://github.com/isecfe/sp-fe-ui"
+    "url": "https://github.com/isecfe/sp-view"
   },
   "scripts": {
     "build": "webpack --mode production --config webpack.config.js"
   },
   "keywords": [
-    "sp-fe-ui",
+    "sp-view",
     "frontend",
     "css",
     "components"

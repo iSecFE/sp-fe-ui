@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: resolve(__dirname, "dist"),
     filename: 'index.min.js',
-    library: "__UI",
+    library: "__View",
   },
   resolve: {
     extensions: ['.js', '.less'],
